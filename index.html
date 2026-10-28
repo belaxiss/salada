@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>nosso canto</title><meta name="theme-color" content="#08090c">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="backdrop"></div><video id="bgVideo" class="bg-video" autoplay muted loop playsinline></video>
+<div class="shade"></div>
+<audio id="bgMusic" loop></audio>
+<button id="soundBtn" class="sound" aria-label="Ativar som" title="Ativar música">♫</button>
+<main class="page">
+  <header class="top"><span class="dot"></span><span id="siteName">nosso canto</span><span class="topline"></span><span class="tiny">friends only</span></header>
+  <section class="intro"><div class="eyebrow">A NOSSA PANELINHA</div><h1 id="headline">gente que é casa.</h1><p id="subtitle">um cantinho nosso na internet.</p></section>
+  <section id="profiles" class="profiles" aria-label="Perfis dos amigos"></section>
+  <footer><span class="live-dot"></span><span><b id="views">—</b> visitas</span><span class="foot-sep">/</span><span id="footerText">feito entre amigos ♡</span></footer>
+</main>
+<div id="toast" class="toast" role="status"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="app.js"></script>
+</body></html>
